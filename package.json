@@ -7,7 +7,7 @@
     "@mdi/font": "^7.4.47"
   },
   "scripts": {
-    "build": "npm run build-service",
+    "build": "npm run build-service"
   }
   
 }
