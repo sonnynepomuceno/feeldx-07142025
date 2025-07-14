@@ -9,10 +9,11 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
+    },
   },
-  define: {
-      // enable hydration mismatch details in production build
-      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: 'false'
-  },
+  // build: {
+  //   rollupOptions: {
+  //     external: ['@mdi/font/css/materialdesignicons.css']
+  //   }
+  // }
 })
