@@ -1,19 +1,9 @@
 {
-  "dependencies": {
-    "ejs": "^3.0.1",
-    "express": "^4.17.1",
-    "winser": "^1.0.3"
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.1.1",
+    "vuetify": "^3.9.0"
   },
-  "name": "feeldx",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "install-service": "winser -i -a",
-    "uninstall-service": "winser -r -x"
- },
-  "author": "Japs",
-  "license": "MIT",
-  "description": ""
-  
+  "dependencies": {
+    "@mdi/font": "^7.4.47"
+  }
 }
