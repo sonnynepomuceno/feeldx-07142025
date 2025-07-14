@@ -327,7 +327,7 @@ export default {
 
 .responsive-app-bar {
   padding-top: 1px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   /* padding-top: 8px;
   padding-bottom: 8px; */
 }

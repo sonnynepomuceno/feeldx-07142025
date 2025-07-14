@@ -1,9 +1,26 @@
 {
-  "devDependencies": {
-    "vite-plugin-vuetify": "^2.1.1",
-    "vuetify": "^3.9.0"
+  "name": "uwsendingorder",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "@mdi/font": "^7.4.47"
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.9.0",
+    "install": "^0.13.0",
+    "pinia": "^2.0.21",
+    "pinia-plugin-persistedstate": "^4.3.0",
+    "sweetalert2": "^11.22.2",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5",
+    "vue3-toastify": "^0.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.11",
+    "vite-plugin-vuetify": "^2.1.1",
+    "vuetify": "^3.8.8"
   }
 }
