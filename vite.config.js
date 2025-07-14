@@ -12,8 +12,8 @@ export default defineConfig({
     },
   },
   build: {
-    rollupOptions: {
-      external: ['@mdi/font/css/materialdesignicons.css']
-    }
+    // rollupOptions: {
+    //   external: ['@mdi/font/css/materialdesignicons.css']
+    // }
   }
 })

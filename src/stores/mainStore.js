@@ -7,7 +7,7 @@ export const useMainStore = defineStore('store', {
     }),
     state: () =>{
         return{
-            API:'http://10.169.142.136:8069', //LOCAL
+            API:'http://10.169.142.136:8090', //LOCAL
             userAccount:[],
             userInformation: {},
             arrEmployees:[]
