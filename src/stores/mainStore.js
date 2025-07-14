@@ -7,7 +7,7 @@ export const useMainStore = defineStore('store', {
     }),
     state: () =>{
         return{
-            API:'http://10.169.142.136:8090', //LOCAL
+            API:'http://10.169.142.136:8080/feeldx', //LOCAL
             userAccount:[],
             userInformation: {},
             arrEmployees:[]
